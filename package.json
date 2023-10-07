@@ -1,0 +1,33 @@
+{
+  "name": "closevector-react",
+  "version": "0.1.0-alpha.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc",
+    "test": "vitest --config ./vitest.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@tsconfig/recommended": "^1.0.3",
+    "@types/react": "^18.2.25",
+    "closevector-common": "0.1.0-alpha.1",
+    "fake-indexeddb": "^4.0.2",
+    "happy-dom": "^12.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "closevector-web": "0.1.0-alpha.15"
+  }
+}
