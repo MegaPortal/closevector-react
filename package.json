@@ -1,6 +1,6 @@
 {
   "name": "closevector-react",
-  "version": "0.1.0-alpha.3",
+  "version": "0.1.0-alpha.4",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -28,6 +28,6 @@
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "closevector-web": "0.1.0-alpha.15"
+    "closevector-web": "0.1.0-alpha.16"
   }
 }
